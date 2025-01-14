@@ -22,7 +22,7 @@ a {
 
 .contacts, .education, .projects, .about {
   min-width: 640px;
-  max-width: 1080px;
+  max-width: 540px;
   margin: 0 auto 32px auto;
 }
 
@@ -32,6 +32,7 @@ a {
 
 .contacts {
   min-height: 400px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,6 +98,6 @@ a {
 }
 
 .about p {
-  text-align: left;
+  text-align: center;
   padding: 8px 0;
 }
